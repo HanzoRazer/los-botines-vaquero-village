@@ -40,6 +40,7 @@ env/
 *.out
 *.bin
 *.inp
+!examples/networks/*.inp
 temp.*
 
 # Data files
