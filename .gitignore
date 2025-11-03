@@ -43,10 +43,17 @@ env/
 !examples/networks/*.inp
 temp.*
 
-# Data files
-*.csv
+# Data files (simulation results)
+*_results_*.csv
+*_pressure.csv
+*_flow.csv
+*_demand.csv
 *.xlsx
 !examples/*.csv
+
+# Report files (generated)
+*_compliance_report.txt
+compliance_report.txt
 
 # OS
 .DS_Store
