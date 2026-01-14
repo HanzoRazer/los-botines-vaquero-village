@@ -1,0 +1,4 @@
+[Sheet: Sheet1] Rows: 212 READY: 210 REJECTS: 2
+Top reject reasons:
+- Invalid Type 'nan' (Pipe/Pump/Valve only)  (rows: 1)
+- Self-loop (NodeID1 == NodeID2) not allowed  (rows: 1)

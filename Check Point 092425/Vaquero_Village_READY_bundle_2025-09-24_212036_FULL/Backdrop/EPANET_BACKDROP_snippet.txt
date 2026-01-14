@@ -1,0 +1,5 @@
+[BACKDROP]
+UNITS       FEET
+FILE        GRID_SITE_PLAN.bmp
+DIMENSIONS  0    0    <URx_ft>    <URy_ft>
+OFFSET      0    0

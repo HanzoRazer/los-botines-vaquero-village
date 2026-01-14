@@ -1,0 +1,5 @@
+[BACKDROP]
+UNITS       FEET
+FILE        GRID_SITE_PLAN.bmp
+DIMENSIONS  0    0    2667.28    1500.34
+OFFSET      0    0

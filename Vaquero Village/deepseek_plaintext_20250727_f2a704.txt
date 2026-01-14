@@ -1,0 +1,10 @@
+Flow_GPM|HW_PressureDrop_psi_per_100ft|DW_PressureDrop_psi_per_100ft|ReynoldsNumber|FlowRegime
+10|0.12|0.15|1200|Laminar
+25|0.45|0.52|3000|Transitional
+50|1.20|1.45|6000|Turbulent
+75|1.95|2.30|9000|Turbulent
+100|2.30|2.80|12000|Turbulent
+150|4.10|5.20|18000|Turbulent
+200|6.20|7.90|24000|Turbulent
+250|8.50|10.80|30000|Turbulent
+300|11.20|14.20|36000|Turbulent

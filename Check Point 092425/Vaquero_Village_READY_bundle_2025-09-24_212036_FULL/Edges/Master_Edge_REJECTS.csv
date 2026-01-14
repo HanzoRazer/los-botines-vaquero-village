@@ -1,0 +1,3 @@
+LinkID,Type,NodeID1,NodeID2,Length_ft,Diameter_in,Roughness,InitialStatus,MinorLoss_K,Power_HP,Setting,CurveID,Valve  Type,Tag,Valve,Type.1,Reject_Reason,Notes,__sheet__
+P_SNT2_125_CNT68,nan,J_SNT5_125,CNT68,15,1.029,0.000167,Open,0,nan,nan,nan,nan,15 ft lateral → CNT68,,,Invalid Type 'nan' (Pipe/Pump/Valve only),,Sheet1
+P_SNT2_1285_TEE,Pipe,J_SNT2_1285,J_SNT2_1285,0,2.469,0.000167,Open,K_TEE_RUN_DIV,nan,nan,nan,nan,TEE(dividing): run IN → tee fitting at SNT2+100 ft,,,Self-loop (NodeID1 == NodeID2) not allowed,,Sheet1

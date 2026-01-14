@@ -1,0 +1,33 @@
+Vaquero Village READY Bundle (FULL) — 2025-09-24_212036
+Included:
+  - Edges/Master_Edge_READY.csv
+  - Edges/Master_Edge_REJECTS.csv
+  - Edges/Master_Edge_VALIDATION.txt
+  - Edges/Partial_No_2_READY.csv
+  - Edges/Partial_No_2_REJECTS.csv
+  - Edges/Partial_No_2_VALIDATION.txt
+  - Edges/Edges_READY.csv
+  - Edges/Edges_REJECTS.csv
+  - Nodes/Vaquero_Village_nodes_READY.csv
+  - Nodes/Vaquero_Village_nodes_REJECTS.csv
+  - Backdrop/EPANET_BACKDROP_snippet.txt
+  - Backdrop/Backdrop_Calibration_CORRECTED.md
+  - Backdrop/EPANET_BACKDROP_from_BMP.txt
+  - Backdrop/Where_to_put_BACKDROP_in_INP.txt
+  - Backdrop/convert_to_bmp_windows.bat
+  - Scripts/merge_edges_to_master.py
+  - Scripts/validate_nodes.py
+  - Scripts/grid_measurements_template.csv
+  - Scripts/grid_calibration.json
+  - Scripts/README_nodes_from_grid.md
+  - Docs/Vaquero_Village_CHECKPOINT_2025-09-24_2111.md
+Missing at build time:
+  - Edges/Edges_Data_Dictionary.txt
+  - Edges/Master_Edge_PROPOSED_FIXES.csv
+  - Edges/Master_Edge_SELFLOOP_PATCH.csv
+  - Nodes/Vaquero_Village_nodes_FILLONLY_READY.csv
+  - Nodes/Vaquero_Village_nodes_FILLONLY_REJECTS.csv
+  - Nodes/Vaquero_Village_nodes2_IDFIXED.csv
+  - Nodes/Vaquero_Village_nodes2_ID_PATCHMAP.csv
+  - Nodes/Vaquero_Village_nodes2_IDFIXED_REMAINING_ISSUES.csv
+  - Scripts/grid_to_nodes.py

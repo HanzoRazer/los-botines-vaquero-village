@@ -1,0 +1,2 @@
+Rows: 43
+READY: 43; REJECTS: 0

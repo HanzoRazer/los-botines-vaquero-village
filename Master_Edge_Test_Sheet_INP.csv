@@ -1,0 +1,554 @@
+﻿LinkID,LinkType,Node1,Node2,Length_ft,Diameter_in,Roughness Coefficient,Status,MinorLoss_K,Jower_HJ,Setting,CurveID,Valve  Type,Tag
+J_RES1_T1,Pipe,RES1,T1,10,2.469,0.000167,Open,0,1,,Curve_Franklin35GJM_1HJ,,Well ? T1
+J_T1_M1,Pipe,T1,M1,20,2.469,0.000167,Open,0,,,,,T1 ? M1
+J_T1_SUC,Pipe,J_T1_SUC,J_BP1_SUC,20,2.469,0.000167,Open,0,,,,,"""Pipie suction header"""
+J_BP1,Pipe,J_BP1_SUC,J_BP1_DIS,10,2.469,0.000167,Open,0,5,,Curve_Franklin_5FJDB1_2_6J625in,,"""Booster Pipie"""
+J_DIS_M1,Pipe,J_BJ1_DIS,M1,20,2.469,0.000167,Open,0,,,,,"""Pipie discharge header"""
+J_SNT1_60_100,Pipe,J_SNT1_60,J_SNT1_160,100,2.469,0.000167,Open,0,,,,,"""SNT1 60?100 ft (to Valve V1)"""
+J_SNT1_V1_IN_160,Pipe,J_SNT1_160,J_V1_IN_160,1,2.469,0.000167,Open,0,,,,,Stub into V1 (no added length)
+V1,Valve,J_V1_IN_160,J_V1_OUT_160,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gJm"""
+J_SNT1_V1_OUT_160_360,Pipe,J_V1_OUT_160,J_SNT1_V2_IN_360,200,2.469,0.000167,Open,0,,,,,"""SNT1 160?200 ft"""
+J_SNT1_V2_IN_360,Pipe,J_SNT1_360,J_V2_IN_360,1,2.469,0.000167,Open,0,,,,,Stub into V1 (no added length)
+V2,Valve,J_V2_IN_360,J_V2_OUT_360,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gpm"""
+J_SNT1_V2_OUT_360_445,Pipe,J_V2_OUT_360,J_SNT1_445,85,2.469,0.000167,Open,0,,,,,"""SNT1 run-in 360?445 ft from V2"""
+J_TEE_SNT1_445_RUN_IN,Pipe,J_SNT1_445,J_TEE_SNT1_445,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_445_CNT1_stub,Pipe,J_TEE_SNT1_445,J_CNT1_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT1_Stub_CNT1_15,Pipe,J_CNT1_Stub,J_CNT1,15,1.029,0.000167,Open,0,,,,,"""SNT1 run-out 445?525 ft"""
+J_TEE_SNT1_445_525,Pipe,J_SNT1_445,J_TEE_SNT1_525,80,2.469,0.000167,Open,0,,,,,SNT1 445? 80 ft (run-out)
+J_TEE_SNT1_525_RUN_IN,Pipe,J_TEE_SNT1_525,J_TEE_SNT1_525,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 525
+J_TEE_SNT1_525_CNT2_Stub,Pipe,J_TEE_SNT1_525,J_CNT2_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT2_Stub_CNT2_40,Pipe,J_CNT2_Stub,J_CNT2,40,1.029,0.000167,Open,0,,,,,Lateral @40 ft ? CNT2
+J_TEE_SNT1_525_580,Pipe,J_SNT1_525,J_TEE_SNT1_580,55,2.469,0.000167,Open,0,,,,,SNT1 525?580 (run-out)
+J_TEE_SNT1_580_RUN_IN,Pipe,J_TEE_SNT1_580,J_TEE_SNT1_580,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 525
+J_TEE_SNT1_580_CNT3_Stub,Pipe,J_TEE_SNT1_580,J_CNT3_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT3_Stub_CNT3_40,Pipe,J_CNT3_Stub,J_CNT3,40,1.029,0.000167,Open,0,,,,,Lateral @40 ft ? CNT3
+J_TEE_SNT1_580_635,Pipe,J_SNT1_580,J_TEE_SNT1_635,55,2.469,0.000167,Open,0,,,,,SNT1 580?55 ft (runout)
+J_TEE_SNT1_635_RUN_IN,Pipe,J_TEE_SNT1_635,J_TEE_IN_SNT1_635,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 635
+J_TEE_SNT1_635_CNT4_Stub,Pipe,J_TEE_SNT1_635,J_CNT4_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT4_Stub_CNT4_40,Pipe,J_CNT4_Stub,J_CNT4,40,1.029,0.000167,Open,0,,,,,Lateral @40 ft ? CNT4
+J_TEE_SNT1_635_690,Pipe,J_SNT1_635,J_TEE_SNT1_690,55,2.469,0.000167,Open,0,,,,,TEE run-in at SNT1 690
+J_SNT1_BEND_IN_690,Pipe,J_SNT1_690,J_SNT1_BEND_IN_690,1,2.469,0.000167,Open,0,,,,,BEND run-in at SNT1 690
+J_SNT1_BEND_IN_690,Pipe,J_SNT1_BEND_IN_690, J_SNT1_BEND_OUT_690,1,2.469,0.000167,Open,0,,,,,Seg: SNT1 ? 90ø bend (stub)
+J_SNT1_BEND_OUT_680_700,Pipe,J_SNT1_BEND_OUT,J_TEE_SNT1_700,20,2.469,0.000167,Open,0,,,,,Run into tee location @700
+J_TEE_SNT1_700_RUN_IN,Pipe,J_SNT1_700,J_TEE_SNT1_700,1,2.469,0.000167,Open,0.3,,,,,"TEE(run-through, dividing)"
+J_TEE_SNT1_700_CNT5_STUB,Pipe,J_TEE_SNT1_700,J_CNT5_Stub,1,2.469,0.000167,Open,0.3,,,,,"""Service branch stub off trunk"""
+J_CNT5_Stub_CNT5_15,Pipe,J_CNT5_Stub, J_CNT5,15,1.029,0.000167,Open,0,,,,," ""Lateral 15 ft to CNT5"""
+J_TEE_SNT1_700_740,Pipe,J_SNT1_700,J_TEE_SNT1_740,40,2.469,0.000167,Open,0,,,,,SNT1 700?740 (run-out)
+J_TEE_SNT1_740_RUN_IN,Pipe,J_TEE_SNT1_740,J_TEE_SNT1_740,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 700
+J_TEE_SNT1_740_CNT6_Stub,Pipe,J_TEE_SNT1_740,J_CNT6_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT6_Stub_CNT6_105,Pipe,J_CNT6_Stub,J_CNT6 ,105,1.029,0.000167,Open,0,,,,,Lateral @40 ft ? CNT3
+J_TEE_SNT1_740_795,Pipe,J_SNT1_740,J_TEE_SNT1_795,55,2.469,0.000167,Open,0,,,,,SNT1 740 to 55 ft
+J_TEE_SNT1_795_RUN_IN,Pipe,J_TEE_SNT1_795,J_TEE_SNT1_795,1,2.469,0.000167,Open,0.3,,,,,"TEE(run-through, dividing)"
+J_TEE_SNT1_795_CNT7_Stub,_,J_TEE_SNT1_795,J_CNT7_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT7_Stub_CNT7_40,Pipe,J_CNT7_Stub,J_CNT7,40,1.029,0.000167,Open,0,,,,,Lateral @40 ft ? CNT2
+J_TEE_SNT1_795_875,Pipe,J_SNT1_795,J_SNT1_V3_IN_875,80,2.469,0.000167,Open,0,,,,,SNT1 795?875 (run-out) to V3
+J_SNT1_V3_IN_875,Pipe,J_TEE_SNT1_875,J_V2_IN_875,1,2.469,0.000167,Open,0,,,,,Stub into V1 (no added length)
+V3,Valve,J_V3_IN_875,J_V3_OUT_875,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gpm"""
+J_TEE_SNT1_V3OUT_875_920,Pipe,J_V3_OUT_875,J_SNT1_920,45,2.469,0.000167,Open,0,,,,,TEE run-in at SNT1 690
+J_TEE_SNT1_920_RUN_IN,Pipe,J_TEE_SNT1_920,J_TEE_SNT1_920,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 920
+J_TEE_SNT1_920_CNT8_Stub,Pipe,J_TEE_SNT1_920,J_CNT8_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT8_Stub_CNT8_40,Pipe,J_CNT8_Stub,J_CNT8,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT8"""
+J_TEE_SNT1_920_1000,Pipe,J_SNT1_920,J_SNT1_1000,80,2.469,0.000167,Open,0,,,,,SNT1 920?80 ft
+J_TEE_SNT1_1000_RUN_IN,Pipe,J_TEE_SNT1_1000,J_TEE_SNT1_1000,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 1000
+J_TEE_SNT1_1000_CNT9_Stub,Pipe,J_TEE_SNT1_1000,J_CNT9_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT9_Stub_CNT9_150,Pipe,J_CNT9_Stub,J_CNT9,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT9"""
+J_TEE_SNT1_1000_1056,Pipe,J_SNT1_1000,J_TEE_SNT1_1056,56,2.469,0.000167,Open,0,,,,,SNT1 1000 to 56 ft
+J_TEE_SNT1_1056_RUN_IN,Pipe,J_TEE_SNT1_1056,J_TEE_SNT1_1056,1,2.469,0.000167,Open,0.3,,,,,TEE run-in at SNT1 1056
+J_TEE_SNT1_1056_CNT10_Stub,Pipe,J_TEE_SNT1_1056,J_CNT10_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT10_Stub_CNT10_150,Pipe,J_CNT10_Stub,J_CNT10,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT10"""
+J_TEE_SNT1_1056_1076,Pipe,J_SNT1_1056,J_TEE_SNT1_1076,20,2.469,0.000167,Open,0,,,,,SNT1 1056 to 20 ft
+J_TEE_SNT1_1076_RUN_IN,Pipe,J_TEE_SNT1_1076,J_TEE_SNT1_1076,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1076_CNT11_Stub,Pipe,J_TEE_SNT1_1076,J_CNT11_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT11_Stub_CNT11_150,Pipe,J_CNT11_Stub,J_CNT11,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT11"""
+J_TEE_SNT1_1076_1132,Pipe,J_SNT1_1076,J_TEE_SNT1_1132,56,2.469,0.000167,Open,0,,,,,SNT11076?56 ft 
+J_TEE_SNT1_1132_RUN_IN,Pipe,J_TEE_SNT1_1132,J_TEE_SNT1_1132,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1132_CNT12_Stub,Pipe,J_TEE_SNT1_1132,J_CNT12_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT12_Stub_CNT12_150,Pipe,J_CNT12_Stub,J_CNT12,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT12"""
+J_TEE_SNT1_1132_1152,Pipe,J_SNT1_1132,J_TEE_SNT1_1152,56,2.469,0.000167,Open,0,,,,,SNT11076?56 ft 
+J_TEE_SNT1_1152_RUN_IN,Pipe,J_TEE_SNT1_1152,J_TEE_SNT1_1152,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1152_CNT13_Stub,Pipe,J_TEE_SNT1_1152,J_CNT13_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT13_Stub_CNT13_150,Pipe,J_CNT13_Stub,J_CNT13,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT12"""
+J_TEE_SNT1_1152_1208,Pipe,J_SNT1_1152,J_TEE_SNT1_1208,56,2.469,0.000167,Open,0,,,,,SNT11076?56 ft 
+J_TEE_SNT1_1208_RUN_IN,Pipe,J_TEE_SNT1_1208,J_TEE_SNT1_1208,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1208_CNT14_Stub,Pipe,J_TEE_SNT1_1208,J_CNT14_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT14_Stub_CNT14_150,Pipe,J_CNT14_Stub,J_CNT14,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT14"""
+J_TEE_SNT1_1208_1264,Pipe,J_SNT1_1208,J_TEE_SNT1_1264,56,2.469,0.000167,Open,0,,,,,SNT11076?56 ft 
+J_TEE_SNT1_1264_RUN_IN,Pipe,J_TEE_SNT1_1264,J_TEE_SNT1_1264,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1264_CNT15_Stub,Pipe,J_TEE_SNT1_1264,J_CNT15_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT15_Stub_CNT15_150,Pipe,J_CNT15_Stub,J_CNT15,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT15"""
+J_TEE_SNT1_1264_1284,Pipe,J_SNT1_1264,J_TEE_SNT1_1284,20,2.469,0.000167,Open,0,,,,,SNT1 1264 ?20 ft 
+J_TEE_SNT1_1284_RUN_IN,Pipe,J_TEE_SNT1_1284,J_TEE_SNT1_1284,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1284_CNT16_Stub,Pipe,J_TEE_SNT1_1284,J_CNT16_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT16_Stub_CNT16_150,Pipe,J_CNT16_Stub,J_CNT16,150,1.029,0.000167,Open,0,,,,,SNT1 1194?56 ft 
+J_TEE_SNT1_1284_1340,Pipe,J_SNT1_1284,J_TEE_SNT1_1340,56,2.469,0.000167,Open,0,,,,,SNT1 1264 ?20 ft 
+J_TEE_SNT1_1340_RUN_IN,Pipe,J_TEE_SNT1_1340,J_TEE_SNT1_1340,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1340_CNT17_Stub,Pipe,J_TEE_SNT1_1340,J_CNT17_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT17_Stub_CNT17_150,Pipe,J_CNT17_Stub,J_CNT17,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT18"""
+J_TEE_SNT1_1340_1355,Pipe,J_SNT1_1340,J_TEE_SNT1_1355,15,2.469,0.000167,Open,0,,,,,SNT1 1340 ?15 ft 
+J_TEE_SNT1_1355_RUN_IN,Pipe,J_TEE_SNT1_1355,J_TEE_SNT1_1355,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1355_CNT18_Stub,Pipe,J_TEE_SNT1_1355,J_CNT18_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT18_Stub_CNT18_150,Pipe,J_CNT18_Stub,J_CNT18,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT18"""
+J_TEE_SNT1_1355_1370,Pipe,J_SNT1_1355,J_TEE_SNT1_1370,15,2.469,0.000167,Open,0,,,,,SNT1 1370 ? 15 ft 
+J_TEE_SNT1_1370_RUN_IN,Pipe,J_TEE_SNT1_1370,J_TEE_SNT1_1370,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1370_CNT19_Stub,Pipe,J_TEE_SNT1_1370,J_CNT19_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT19_Stub_CNT19_150,Pipe,J_CNT19_Stub,J_CNT19,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT19"""
+J_SNT1_1370_1400,Pipe,J_SNT1_1385,J_TEE_SNT1_1400,15,2.469,0.000167,Open,0,,,,,SNT1 1370 ? 15 ft 
+J_TEE_SNT1_1400_RUN_IN,Pipe,J_TEE_SNT1_1400,J_TEE_SNT1_1400,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1400_CNT20_Stub,Pipe,J_TEE_SNT1_1370,J_CNT20_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT20_Stub_CNT20_150,Pipe,J_CNT20_Stub,J_CNT20,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT20"""
+J_TEE_SNT1_1400_1415,Pipe,J_SNT1_1400,J_TEE_SNT1_1415,15,2.469,0.000167,Open,0,,,,,SNT1 1400 ? 15 ft 
+J_TEE_SNT1_1415_RUN_IN,Pipe,J_TEE_SNT1_1415,J_TEE_SNT1_1415,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1400_CNT21_Stub,Pipe,J_TEE_SNT1_1415,J_CNT21_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT21_Stub_CNT21_150,Pipe,J_CNT21_Stub,J_CNT21,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT21"""
+J_TEE_SNT1_SNT1_1415_1430,Pipe,J_SNT1_1415,J_TEE_SNT1_1430,15,2.469,0.000167,Open,0,,,,,SNT1 1415 ? 15 ft 
+J_TEE_SNT1_1430_RUN_IN,Pipe,J_TEE_SNT1_1430,J_TEE_SNT1_1430,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1430_CNT22_Stub,Pipe,J_TEE_SNT1_1430,J_CNT22_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT22_Stub_CNT22_150,Pipe,J_CNT22_Stub,J_CNT22,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT22"""
+J_TEE_SNT1_1430_1445,Pipe,J_TEE_SNT1_1415,J_TEE_SNT1_1445,15,2.469,0.000167,Open,0,,,,,SNT1 1430 ? 15 ft 
+J_TEE_SNT1_1445_RUN_IN,Pipe,J_SNT1_1445,J_TEE_SNT1_1445,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1445_CNT23_Stub,Pipe,J_TEE_SNT1_1445,J_CNT23_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT23_Stub_CNT23_150,Pipe,J_CNT23_Stub,J_CNT23,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? _CNT23"""
+J_TEE_SNT1_1445_1460,Pipe,J_SNT1_1445,J_TEE_SNT1_1460,15,2.469,0.000167,Open,0,,,,,SNT1 1445 ? 15 ft 
+J_TEE_SNT1_1460_RUN_IN,Pipe,J_TEE_SNT1_1460,J_TEE_SNT1_1460,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1460_CNT24_Stub,Pipe,J_TEE_SNT1_1460,J_CNT24_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT24_Stub_CNT24_150,Pipe,J_CNT24_Stub,J_CNT24,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? _CNT24"""
+J_TEE_SNT1_1460_1475,Pipe,J_SNT1_1460,J_TEE_SNT1_1475,15,2.469,0.000167,Open,0,,,,,SNT1 1475 ? 15 ft 
+J_TEE_SNT1_1475_RUN_IN,Pipe,J_TEE_SNT1_1475,J_TEE_SNT1_1475,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1475_CNT25_Stub,Pipe,J_TEE_SNT1_1475,J_CNT25_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT25_Stub_CNT25_150,Pipe,J_CNT25_Stub,J_CNT25,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? _CNT25"""
+J_TEE_SNT1_1475_1570,Pipe,J_SNT1_1475,J_TEE_SNT1_1570,95,2.469,0.000167,Open,0,,,,,SNT1 1570 ? 95 ft 
+J_TEE_SNT1_1570_RUN_IN,Pipe,J_TEE_SNT1_1570,J_TEE_SNT1_1570,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1570_CNT26_Stub,Pipe,J_TEE_SNT1_1570,J_CNT26_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT26_Stub_CNT26_150,Pipe,J_CNT26_Stub,J_CNT26,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? _CNT26"""
+J_TEE_SNT1_1570_1585,Pipe,J_SNT1_1570,J_TEE_SNT1_1585,15,2.469,0.000167,Open,0,,,,,SNT1 1585 ? 15 ft 
+J_TEE_SNT1_1585_RUN_IN,Pipe,J_TEE_SNT1_1585,J_TEE_SNT1_1585,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1585_CNT27_Stub,Pipe,J_TEE_SNT1_1585,J_CNT27_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT27_Stub_CNT27_150,Pipe,J_CNT27_Stub,J_CNT27,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT27"""
+J_TEE_SNT1_1585_1680,Pipe,J_SNT1_1570,J_TEE_SNT1_1680,95,2.469,0.000167,Open,0,,,,,SNT1 1680 ? 95 ft 
+J_TEE_SNT1_1680_RUN_IN,Pipe,J_TEE_SNT1_1680,J_TEE_SNT1_1680,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1680_CNT28_Stub,Pipe,J_TEE_SNT1_1680,J_CNT28_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J__CNT28_Stub_CNT28_150,Pipe,J_CNT28_Stub,J_CNT28,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT28"""
+J_TEE_SNT1_1680_1695,Pipe,J_SNT1_1570,J_TEE_SNT1_1695,15,2.469,0.000167,Open,0,,,,,SNT1 1695 ?15 ft 
+J_TEE_SNT1_1695_RUN_IN,Pipe,J_TEE_SNT1_1695,J_TEE_SNT1_1695,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1695_CNT29_Stub,Pipe,J_TEE_SNT1_1695,J_CNT29_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT29_Stub_CNT29_Stub_150,Pipe,J_CNT29_Stub,J_CNT29,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT29"""
+J_TEE_SNT1_1695_1790,Pipe,J_SNT1_1695,J_TEE_SNT1_1790,95,2.469,0.000167,Open,0,,,,,SNT1 1760 ?15 ft 
+J_TEE_SNT1_1790_RUN_IN,Pipe,J_TEE_SNT1_1790,J_TEE_SNT1_1790,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1790_CNT30_Stub,Pipe,J_TEE_SNT1_1790,J_CNT30_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT30_Stub_CNT30_150,Pipe,J_CNT30_Stub,J_CNT30,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT30"""
+J_TEE_SNT1_1790_1805,Pipe,J_SNT1_1790,J_TEE_SNT1_1805,15,2.469,0.000167,Open,0,,,,,SNT1 1805 ? 15 ft 
+J_TEE_SNT1_1805_RUN_IN,Pipe,J_TEE_SNT1_1805,J_TEE_SNT1_1805,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1790_CNT31_Stub,Pipe,J_TEE_SNT1_1805,J_CNT31_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT31_Stub_CNT31_150,Pipe,J_CNT31_Stub,J_CNT31,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT31"""
+J_TEE_SNT1_1805_1900,Pipe,J_SNT1_1805,J_TEE_SNT1_1900,95,2.469,0.000167,Open,0,,,,,SNT1 1805 ? 95 ft 
+J_TEE_SNT1_1900_RUN_IN,Pipe,J_TEE_SNT1_1900,J_TEE_SNT1_1900,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1900_CNT32_Stub,Pipe,J_TEE_SNT1_1900,J_CNT32_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT33_Stub_CNT32_150,Pipe,J_CNT32_Stub,J_CNT32,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT32"""
+J_TEE_SNT1_1900_1915,Pipe,J_SNT1_1900,J_TEE_SNT1_1915,15,2.469,0.000167,Open,0,,,,,SNT1 1900 ? 15 ft 
+J_TEE_SNT1_1915_RUN_IN,Pipe,J_TEE_SNT1_1915,J_TEE_SNT1_1915,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_1915_CNT33_Stub,Pipe,J_TEE_SNT1_1915,J_CNT33_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT33_Stub_CNT33_150,Pipe,J_CNT33_Stub,J_CNT33,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT33"""
+J_TEE_SNT1_1915_2065,Pipe,J_SNT1_1915,J_TEE_SNT1_2065,150,2.469,0.000167,Open,0,,,,,SNT1 1915 ? 150 ft 
+J_TEE_SNT1_2065_RUN_IN,Pipe,J_TEE_SNT1_2065,J_TEE_SNT1_2065,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_2065_CNT34_Stub,Pipe,J_TEE_SNT1_2065,J_CNT34_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_TEE_CNT34_Stub_CNT34_150,Pipe,J_CNT34_Stub,J_CNT34,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT34"""
+J_TEE_SNT1_2065_2080,Pipe,J_SNT1_2065,J_TEE_SNT1_2080,15,2.469,0.000167,Open,0,,,,,SNT1 2065 ? 15 ft 
+J_TEE_SNT1_2080_RUN_IN,Pipe,J_TEE_SNT1_2080,J_TEE_SNT1_2080,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_2080_CNT35_Stub,Pipe,J_TEE_SNT1_2080,J_CNT35_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT35_Stub_CNT35_150,Pipe,J_CNT35_Stub,J_CNT35,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT35"""
+J_TEE_SNT1_2080_2175,Pipe,J_SNT1_2080,J_TEE_SNT1_2175,95,2.469,0.000167,Open,0,,,,,SNT1 2080 ? 95 ft 
+J_TEE_SNT1_2175_RUN_IN,Pipe,J_TEE_SNT1_2175,J_TEE_SNT1_2175,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_SNT1_2175_CNT36_Stub,Pipe,J_TEE_SNT1_2175,J_CNT36_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT36_Stub_CNT35_150,Pipe,J_CNT36_Stub,J_CNT36,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT36"""
+J_TEE_SNT1_2175_2255,Pipe,J_SNT1_2175,J_SNT1_V4_IN_2255,80,2.469,0.000167,Open,0,,,,,SNT1 2175 ? 80 ft 
+J_SNT1_V4_IN_2255,Pipe,J_TEE_SNT1_2255,J_V4_IN_2255,1,2.469,0.000167,Open,0,,,,,Stub into V4 (no added length)
+V4,Valve,J_V4_IN_2255,J_V4_OUT_2255,1,2.469,0.000167,Closed,0,,0,,TCV,Closed valve on SNT1
+J_M1_SNT2_Stub_55,Pipe,M1,J_SNT2_Stub_55,55,2.469,0.000167,Open,0,,,,,Header M1 ? SNT2 (to CNT37)
+J_TEE_SNT2_Stub_55,Pipe,J_SNT2_Stub_55,J_TEE_SNT2_55,1,2.469,0.000167,Open,0.3,,,,,"""TEE run-in at SNT2 55"""
+J_TEE_SNT2_55_RUN_IN,Pipe,J_SNT1_55,J_TEE_SNT1_55,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_55_CNT37_Stub,Pipe,J_TEE_SNT1_55,J_CNT37_Stub,1,2.469,0.000167,Open,0,,,,,Service branch stub off trunk
+J_CNT37_Stub_CNT37_90,Pipe,J_CNT37_Stub,J_CNT37,90,1.029,0.000167,Open,0,,,,,"""Lateral @ 90 ft ? CNT37"""
+J_CNT37_90_V5_STUB,Pipe,J_CNT37_90,J_V5_IN_55,1,1.029,0.000167,Open,0,,,,,Service branch stub off trunk
+V5,Valve,J_V5_IN_90,J_V5_OUT_90,1,1.029,0.000167,Closed,0,,,,TCV,Closed valve on CNT37
+J_SNT2_55_105,Pipe,J_SNT2_55,J_TEE_SNT2_105,50,2.469,0.000167,Open,0,,,,,SNT2 55?105 (run-out)
+J_SNT2_105_RUN_IN,Pipe,J_TEE_SNT2_105,J_TEE_SNT2_105,1,2.469,0.000167,Open,0.3,,,,,"""TEE run-in at SNT2 105"""
+J_TEE_SNT2_105_CNT38_Stub,Pipe,J_TEE_SNT1_105,J_CNT38_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT38_Stub_CNT38_90,Pipe,J_CNT38_Stub,J_CNT38,90,1.029,0.000167,Open,0,,,,,"""Lateral @ 90 ft ? CNT38"""
+J_CNT38_105_V6_STUB,Pipe,J_CNT38,J_V6_IN_105,1,1.029,0.000167,Open,0,,,,,Service branch stub off trunk
+V6,Valve,J_V6_IN_105,J_V6_OUT_105,1,1.029,0.000167,Closed,0,,0,,TCV,Closed valve to CNT38
+J_TEE_SNT2_105_185,Pipe,J_TEE_SNT2_105,J_TEE_SNT2_185,80,2.469,0.000167,Open,0,,,,,SNT2 105? 80 ft to V7
+J_SNT2_185_RUN_IN,Pipe,J_SNT2_185,J_SNT2_185,1,2.469,0.000167,Open,0,,,,,Stub into V7 (no added length)
+J_TEE_SNT2_185_V7_STUB,Pipe,J_TEE_SNT2_185,J_V7_IN_185,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gpm (SNT2)"""
+V7,Valve,J_V7_IN_185,J_V7_OUT_185,1,2.469,0.000167,Open,0,,0,,,Open valve to V8
+J_SNT2_V7_OUT_185_210,Pipe,J_V7_OUT_185,J_SNT2_210,25,2.469,0.000167,Open,0,,,,,Lateral 80 ft ? through V7 to V8
+J_SNT2_V8_IN_210,Pipe,J_SNT2_210,J_V8_IN_210,1,2.469,0.000167,Open,0,,,,,Stub into V8 (no added length)
+V8,Valve,J_V8_IN_210,J_V8_OUT_210,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gpm"""
+J_TEE_SNT2_V8_OUT_210_211,Pipe,J_TEE_SNT2_210,J_TEE_SNT2_211,1,2.469,0.000167,Open,0,,,,,Lateral 1 ft ? through V8 to CNT39
+J_TEE_SNT2_211_RUN_IN,Pipe,J_TEE_SNT2_211,J_TEE_SNT2_211,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_211_CNT39_Stub,Pipe,J_TEE_SNT2_211,J_CNT39_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT39_Stub_CNT39_150,Pipe,J_CNT39_Stub,J_CNT39 ,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT39"""
+J_TEE_SNT2_211_240,Pipe,J_TEE_SNT2_211,J_TEE_SNT2_240,29,2.469,0.000167,Open,0,,,,,Lateral ? through V8 to CNT40
+J_TEE_SNT2_240_RUN_IN,Pipe,J_TEE_SNT2_240,J_TEE_SNT2_240,1,1.029,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+ J_TEE_SNT2_240 _CNT40_Stub,  Pipe,J_TEE_SNT2_240,J_CNT40_Stub,1,1.029,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_CNT40_Stub_CNT40_100,  Pipe,J_CNT40_Stub,J_CNT40,100,1.029,0.000167,Open,0,,,,,100 ft lateral ?from SNT2 to  CNT40
+J_TEE_CNT40_100_RUN_IN,Pipe,J_TEE_CNT40_100,J_CNT41_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_CNT40_100_CNT41_Stub, Pipe,J_TEE_CNT40_100,J_CNT41_Stub,1,1.029,0.000167,Open,0,,,,,Lateral ? through CNT40 to CNT41
+J_CNT41_Stub_CNT41_150,  Pipe,J_CNT41_Stub,J_CNT41,150,1.029,0.000167,Open,0,,,,,150 ft lateral ?from CNT40 to  CNT41
+J_CNT41_250_V9_STUB,Pipe,J_CNT41,J_V9_IN_185,1,1.029,0.000167,Open,0.3,,,,,Stub into V9 (no added length)
+V9,Valve,J_V9_IN_105,J_V9_OUT_105,1,1.029,0.000167,Closed,0.3,,0,,TCV,Closed valve to CNT41
+J_TEE_SNT2_240_265,Pipe,J_TEE_SNT2_240,J_TEE_SNT2_265,25,2.469,0.000167,Open,0,,,,,SNT2 240 ? 25 ft 
+J_TEE_SNT2_265_RUN_IN,Pipe,J_SNT2_265,J_TEE_SNT2_265,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_265_CNT42_Stub,Pipe,J_TEE_SNT2_265,J_CNT42_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT42_Stub_CNT42_150,Pipe,J_CNT42_Stub,J_CNT42,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT42"""
+J_TEE_SNT2_265_300,Pipe,J_TEE_SNT2_265,J_TEE_SNT2_300,35,2.469,0.000167,Open,0,,,,,SNT2 265? 35 ft 
+J_SNT2_300_RUN_IN,Pipe,J_SNT2_300,J_TEE_SNT2_300,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_300_CNT43_Stub,Pipe,J_TEE_SNT2_300,J_CNT43_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT43_Stub_CNT43_150,Pipe,J_CNT43_Stub,J_CNT43,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT43"""
+J_TEE_SNT2_300_365,Pipe,J_TEE_SNT2_300,J_TEE_SNT2_365,65,2.469,0.000167,Open,0,,,,,SNT2 300 ? 65 ft 
+J_TEE_SNT2_365_RUN_IN,Pipe,J_SNT2_365,J_TEE_SNT2_365,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_CNT44_Stub_365,Pipe,J_TEE_SNT2_365,J_CNT44_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT44_Stub_CNT44_365,Pipe,J_CNT44_Stub,J_CNT44,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT44"""
+J_TEE_SNT2_365_390,Pipe,J_TEE_SNT2_365,J_TEE_SNT2_390,25,2.469,0.000167,Open,0,,,,,SNT2 365 ? 25 ft 
+J_TEE_SNT2_390_RUN_IN,Pipe,J_SNT2_390,J_TEE_SNT2_390,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_CNT45_Stub_390,Pipe,J_TEE_SNT2_390,J_CNT45_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT45_Stub_CNT45_390,Pipe,J_CNT45_Stub,J_CNT45,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT45"""
+J_TEE_SNT2_390_415,Pipe,J_TEE_SNT2_390,J_TEE_SNT2_415,25,2.469,0.000167,Open,0,,,,,SNT2 390 ? 25 ft 
+J_TEE_SNT2_415_RUN_IN,Pipe,J_SNT2_415,J_TEE_SNT2_415,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_415_CNT46_Stub_415,Pipe,J_TEE_SNT2_415,J_CNT46_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT46_Stub_CNT46_415,Pipe,J_CNT46_Stub,J_CNT46,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT45"""
+J_TEE_SNT2_415_440,Pipe,J_TEE_SNT2__415,J_TEE_SNT2_440,25,2.469,0.000167,Open,0,,,,,SNT2 390 ? 25 ft 
+J_TEE_SNT2_440_RUN_IN,Pipe,J_TEE_SNT2_440,J_TEE_SNT2_440,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_CNT47_Stub,Pipe,J_TEE_SNT2_440,J_CNT47_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT47_Stub_CNT47_440,Pipe,J_CNT47_Stub,J_CNT47,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT47"""
+J_TEE_SNT2_440_505,Pipe,J_TEE_SNT2_440,J_TEE_SNT2_505,65,2.469,0.000167,Open,0,,,,,SNT2 440 ? 65 ft 
+J_TEE_SNT2_505_RUN_IN,Pipe,J_SNT2_505,J_TEE_SNT2_505,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_505_CNT48_Stub,Pipe,J_TEE_SNT2_505,J_CNT48_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT48_Stub_CNT48_505,Pipe,J_CNT48_Stub,J_CNT48,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT48"""
+J_TEE_SNT2_505_535,Pipe,J_TEE_SNT2_505,J_TEE_SNT2_535,35,2.469,0.000167,Open,0,,,,,SNT2 505 ? 35 ft 
+J_TEE_SNT2_535_RUN_IN,Pipe,J_SNT2_535,J_TEE_SNT2_535,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_535_CNT49_Stub,Pipe,J_TEE_SNT2_535,J_CNT49_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT49_Stub_CNT48_535,Pipe,J_CNT49_Stub,J_CNT49,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT49 ft"""
+J_TEE_SNT2_535_580,Pipe,J_TEE_SNT2_535,J_TEE_SNT2_580,45,2.469,0.000167,Open,0,,,,,SNT2 535 ? 45 ft 
+J_TEE_SNT2_580_RUN_IN,Pipe,J_SNT2_580,J_TEE_SNT2_580,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_580_CNT50_Stub,Pipe,J_TEE_SNT2_580,J_CNT50_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT50_Stub_CNT50_580,Pipe,J_CNT50_Stub,J_CNT50,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT50"""
+J_TEE_SNT2_580_625,Pipe,J_TEE_SNT2_580,J_TEE_SNT2_625,45,2.469,0.000167,Open,0,,,,,SNT2 580 ? 45 ft 
+J_TEE_SNT2_625_RUN_IN,Pipe,J_SNT2_625,J_TEE_SNT2_625,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_625_CNT51_Stub,Pipe,J_TEE_SNT2_625,J_CNT51_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT51_Stub_CNT51_625,Pipe,J_CNT51_Stub,J_CNT51,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT51"""
+J_TEE_SNT2_625_670,Pipe,J_TEE_SNT2_625,J_TEE_SNT2_670,45,2.469,0.000167,Open,0,,,,,SNT2 625 ? 45 ft
+J_TEE_SNT2_670_RUN_IN,Pipe,J_SNT2_670,J_TEE_SNT2_670,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_670_CNT52_Stub,Pipe,J_TEE_SNT2_670,J_CNT52_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT52_Stub_CNT51_670,Pipe,J_CNT52_Stub,J_CNT52,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT52"""
+J_TEE_SNT2_670_715,Pipe,J_TEE_SNT2_670,J_TEE_SNT2_715,45,2.469,0.000167,Open,0,,,,,SNT2 670 ft ? 45  
+J_TEE_SNT2_715_RUN_IN,Pipe,J_SNT2_715,J_TEE_SNT2_715,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_715_CNT53_Stub,Pipe,J_TEE_SNT2_715,J_CNT53_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT53_Stub_715_CNT53_715,Pipe,J_CNT53_Stub,J_CNT53,150,1.029,0.000167,Open,0,,,,,"""Lateral @150 ft ? CNT53 ft"""
+J_TEE_SNT2_715_840,Pipe,J_TEE_SNT2_715,J_SNT2_V10_IN_840,125,2.469,0.000167,Open,0,,,,,SNT2 715 ? 125 ft
+J_SNT2_V10_IN_840,Pipe,J_V10_IN_840,J_V10_OUT_840,1,2.469,0.000167,Open,0,,,,,Stub into V10 (no added length)
+V10,Valve,J_V10_IN_840,J_V10_OUT_840,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gJm (SNT2)"""
+J_TEE_SNT2_V10_OUT_840_845,Pipe,J_V10_OUT_840,J_TEE_SNT2_845,5,2.469,0.000167,Open,0,,,,,Lateral out of V10 ? 5 ft
+J_TEE_SNT2_845_RUN_IN,Pipe,J_SNT2_845,J_TEE_SNT3_845_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_845_SNT3_Stub,Pipe,J_TEE_SNT2_845,J_SNT3_Stub_75,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_SNT3_Stub_SNT3_75,Pipe,J_SNT3_Stub_75,J_SNT3_75,75,2.469,0.000167,Open,0,,,,,Begiinning of SNT3 +75 ft to CNT54
+J_TEE_SNT3_75_RUN_IN,Pipe,J_SNT3_75,J_TEE_SNT3_75,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_TEE_SNT3_75_CNT54_Stub,Pipe,J_TEE_SNT3_75,J_CNT54_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_CNT54_Stub_75_CNT54_75,Pipe,J_CNT54_Stub,J_CNT54,15,1.029,0.000167,Open,0,,,,,"""Lateral @75 ft ? CNT54"""
+J_TEE_SNT3_75_130,Pipe,J_TEE_SNT3_75,J_TEE_SNT3_130,55,2.469,0.000167,Open,0,,,,,SNT3 75 ? 55 ft
+J_TEE_SNT3_130_RUN_IN,Pipe,J_SNT3_130,J_TEE_SNT3_130,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_TEE_SNT2_130_CNT55_Stub,Pipe,J_TEE_SNT3_130,J_CNT55_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_CNT55_Stub_130_CNT54_55,Pipe,J_CNT55_Stub,J_CNT55,15,1.029,0.000167,Open,0,,,,,"""Lateral @15 ft ? CNT55"""
+J_TEE_SNT3_130_185,Pipe,J_TEE_SNT3_130,J_TEE_SNT3_185,55,2.469,0.000167,Open,0,,,,,SNT3 55 ? 185 ft
+J_TEE_SNT3_185_RUN_IN,Pipe,J_SNT3_185,J_TEE_SNT3_185,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_TEE_SNT3_185_CNT56_Stub,Pipe,J_TEE_SNT3_185,J_CNT56_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_CNT56_Stub_185_CNT56_185,Pipe,J_CNT56_Stub,J_CNT56,15,1.029,0.000167,Open,0,,,,,"""Lateral @15ft ? CNT56"""
+J_TEE_SNT3_185_240,Pipe,J_SNT3_185,J_TEE_SNT3_240,55,2.469,0.000167,Open,0,,,,,SNT3 185 ? 55 ft
+J_TEE_SNT3_240_RUN_IN,Pipe,J_SNT3_240,J_TEE_SNT3_240,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_SNT3_240_CNT57_Stub,Pipe,J_TEE_SNT3_240,J_CNT57_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_CNT57_Stub_CNT57_240,Pipe,J_CNT57_Stub,J_CNT57,15,1.029,0.000167,Open,0,,,,,"""Lateral @185 ft ? CNT57"""
+J_TEE_SNT3_240_295,Pipe,J_SNT3_240,J_TEE_SNT3_295,55,2.469,0.000167,Open,0,,,,,SNT3 240 ? 55 ft
+J_TEE_SNT3_295_RUN_IN,Pipe,J_SNT3_295,J_TEE_SNT3_295,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_TEE_SNT3_295_CNT58_Stub,Pipe,J_TEE_SNT3_295,J_CNT58_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT3
+J_CNT58_Stub_CNT58_295,Pipe,J_CNT58_Stub,J_CNT58,15,1.029,0.000167,Open,0,,,,,"""Lateral @15 ft ? CNT58"""
+J_TEE_SNT2_845_850,Pipe,J_TEE_SNT2_845,J_TEE_SNT2_855,10,2.469,0.000167,Open,0,,,,,Continuation of SNT2 855 ft to CNT59
+J_TEE_SNT2_855_RUN_IN,Pipe,J_SNT2_855,J_TEE_SNT2_855,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_855_CNT59_Stub,Pipe,J_TEE_SNT2_855,J_CNT59_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT59_Stub_CNT59_855,Pipe,J_CNT59_Stub,J_CNT59,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT59"""
+J_TEE_SNT2_855_875,Pipe,J_SNT2_855,J_TEE_SNT2_875,20,2.469,0.000167,Open,0,,,,,Continuation of SNT2 85 ft to CNT60
+J_TEE_SNT2_875_RUN_IN,Pipe,J_TEE_SNT2_875,J_TEE_SNT2_875,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_875_CNT60_Stub,Pipe,J_TEE_SNT2_875,J_CNT60_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT60_Stub_CNT60_875,Pipe,J_CNT60_Stub,J_CNT60,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 20 ft ? CNT60"""
+J_SNT2_875_1050,Pipe,J_SNT2_875,J_SNT2_V11_IN_1050,175,2.469,0.000167,Open,0,,,,,Continuation of SNT2 175 ft to V11
+J_SNT2_V11_IN_1050_Stub,Pipe,J_SNT2_1050_Stub,J_V11_IN_1050,1,2.469,0.000167,Open,0,,,,,Stub into V11 (no added length)
+V11,Valve,J_V11_IN_1050,J_V11_OUT_1050,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gJm (SNT2)"""
+J_SNT2_V11_OUT_1050_1055,Pipe,J_V10_OUT_1050,J_TEE_SNT2_1055,5,2.469,0.000167,Open,0,,,,,Lateral out of V11 ? 5 ft to SNT4
+J_SNT2_1055_RUN_IN,Pipe,J_SNT2_1055,J_TEE_SNT4_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_TEE_SNT2_1055_SNT4_Stub,Pipe,J_TEE_SNT2_1055,J_SNT4_Stub_20,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_SNT4_Stub_SNT4_20,Pipe,J_SNT4_Stub_20,J_SNT4_20,20,2.469,0.000167,Open,0,,,,,Begiinning of SNT4 +20 ft to CNT61
+J_TEE_SNT4_20_RUN_IN,Pipe,J_SNT4_20,J_TEE_SNT4_20,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_TEE_SNT4_20_CNT61_Stub,Pipe,J_TEE_SNT4_20,J_CNT61_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_CNT61_Stub_CNT61_20,Pipe,J_CNT61_Stub,J_CNT61_Stub,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 20ft ? CNT61"""
+J_TEE_SNT4_20_70,Pipe,J_SNT4_20,J_TEE_SNT4_70,50,2.469,0.000167,Open,0,,,,,SNT4 20 ? 50 ft
+J_TEE_IN_SNT4_70_RUN_IN,Pipe,J_TEE_SNT4_70,J_TEE_SNT4_70,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_TEE_SNT4_70_CNT62_Stub,Pipe,J_TEE_SNT4_70,J_CNT62_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_CNT62_Stub_CNT62_15,Pipe,J_CNT62_Stub,J_CNT62,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT62"""
+J_TEE_SNT4_70_120,Pipe,J_SNT4_70,J_TEE_SNT4_120,50,2.469,0.000167,Open,0,,,,,SNT4 +50 ft to CNT63
+J_TEE_SNT4_120_RUN_IN,Pipe,J_TEE_SNT4_120,J_TEE_SNT4_120,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_TEE_SNT4_120_CNT63_Stub,Pipe,J_TEE_SNT4_120,J_CNT63_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_CNT63_Stub_CNT63_120,Pipe,J_CNT63_Stub,J_CNT63,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT63"""
+J_TEE_SNT4_120_170,Pipe,J_SNT4_120,J_TEE_SNT4_170,50,2.469,0.000167,Open,0,,,,,SNT4 +50 ft to CNT64
+J_TEE_SNT4_170_RUN_IN,Pipe,J_TEE_SNT4_170,J_TEE_SNT4_170,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_TEE_SNT4_170_CNT64_Stub,Pipe,J_TEE_SNT4_170,J_CNT64_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT4
+J_CNT64_Stub_CNT64_170,Pipe,J_CNT64_Stub,J_CNT64,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT63"" the end of SNT4"
+J_SNT2_1055_1170,Pipe,J_SNT2_1055,J_SNT2_V12_IN_1170,115,2.469,0.000167,Open,0,,,,,Continuation of SNT2 850 ft to CNT59
+J_SNT2_V12_IN_Stub_1170,Pipe,J_V12_IN_1170_Stub,J_V12_IN_1170,1,2.469,0.000167,Open,0,,,,,"""FCV set to 20 gJm (SNT2)"""
+V12,Valve,J_V12_IN_1170,J_V12_OUT_1170,1,2.469,0.000167,Open,0,,20,,FCV,"""FCV set to 20 gJm (SNT2)"""
+J_SNT2_V12_OUT_1170_1175,Pipe,J_V12_OUT_1170,J_SNT2_1175,5,2.469,0.000167,Open,0,,,,,Lateral out of V12 ? 5 ft to SNT2
+J_TEE_SNT2_1175_RUN_IN,Pipe,J_SNT2_1175,J_TEE_SNT5_1175_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT2_1175_SNT5_Stub,Pipe,J_SNT2_1175,J_SNT5_Stub_125,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_SNT5_Stub_SNT5_125,Pipe,J_SNT5_Stub,J_SNT5_125,125,2.469,0.000167,Open,0,,,,,Begiinning of SNT5 +125 ft to CNT65
+J_TEE_SNT5_125_RUN_IN,Pipe,J_SNT5_125,J_TEE_SNT5_125,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_125_CNT65_Stub,Pipe,J_TEE_SNT5_125,J_CNT65_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT65_Stub_CNT65_125,Pipe,J_CNT65_Stub,J_CNT65,15,1.029,0.000167,Open,0,,,,,15 ft lateral ? CNT65
+J_TEE_SNT5_125_130,Pipe,J_SNT5_125,J_SNT5_BEND_IN_130,5,2.469,0.000167,Open,0,,,,,SNT5 +5 ft on trunk to Bend
+J_SNT5_BEND_IN_130,Pipe,J_SNT5_130,J_SNT5_BEND_OUT_130,1,2.469,0.000167,Open,0,,,,,"""Seg: SNT5 ? 90ø bend"""
+J_SNT5_BEND_OUT_130,Pipe,J_SNT5_BEND_IN_130,J_SNT5_BEND_OUT_130,1,2.469,0.000167,Open,0,,,,,"""Seg: SNT5 ? 90ø bend"""
+J_SNT5_BEND_OUT_130_145,Pipe,J_SNT5_BEND_OUT_130,J_TEE_SNT5_145,15,2.469,0.000167,Open,0,,,,,"""Seg: 90ø bend ? SNT5 +20 ft"""
+J_TEE_SNT5_145_RUN_IN,Pipe,J_SNT5_145,J_TEE_SNT5_145,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_145_CNT66_Stub,Pipe,J_TEE_SNT5_145,J_CNT66_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT66_Stub_CNT66_145,Pipe,J_CNT66_Stub,J_CNT66,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT66"" "
+J_TEE_SNT5_145_165,Pipe,J_SNT5_145,J_TEE_SNT5_165,20,2.469,0.000167,Open,0,,,,,SNT5 +20 ft to CNT67
+J_TEE_SNT5_165_RUN_IN,Pipe,J_TEE_SNT5_165,J_TEE_SNT5_165,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_165_CNT67_Stub,Pipe,J_TEE_SNT5_165,J_CNT67_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT67_Stub_CNT67_165,Pipe,J_CNT67_Stub,J_CNT67,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT67"" "
+J_TEE_SNT5_165_190,Pipe,J_SNT5_165,J_TEE_SNT5_190,25,2.469,0.000167,Open,0,,,,,SNT5 +20 ft to CNT68
+J_TEE_SNT5_190_RUN_IN,Pipe,J_TEE_SNT5_190,J_TEE_SNT5_190,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_190_CNT68_Stub,Pipe,J_TEE_SNT5_190,J_CNT68_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT68_Stub_CNT68_190,Pipe,J_CNT68_Stub,J_CNT68,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT68"" "
+J_TEE_SNT5_190_260,Pipe,J_SNT5_190,J_TEE_SNT5_260,70,2.469,0.000167,Open,0,,,,,SNT5 +70 ft on trunk to CNT69
+J_TEE_SNT5_260_RUN_IN,Pipe,J_TEE_SNT5_260,J_TEE_OUT_,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_260_CNT69_Stub,Pipe,J_TEE_SNT5_260,J_CNT69_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT69_Stub_CNT69_260,Pipe,J_CNT69_Stub,J_CNT69,15,1.029,0.000167,Open,0,,,,,"""Lateral @ 15 ft ? CNT69"" "
+J_TEE_SNT5__260_310,Pipe,J_SNT5_260,J_TEE_SNT5_310,50,2.469,0.000167,Open,0,,,,,SNT5 +50 ft on trunk to CNT70
+J_TEE_SNT5_310_RUN_IN,Pipe,J_TEE_SNT5_310,J_TEE_SNT5_310,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_310_CNT70_Stub,Pipe,J_TEE_SNT5_310,J_CNT70_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT70_Stub_CNT70_310,Pipe,J_CNT70_Stub,J_CNT70,15,1.029,0.000167,Open,0,,,,,15 ft lateral ? CNT70
+J_TEE_SNT5_310_325,Pipe,J_SNT5_310,J_TEE_SNT5_325,15,2.469,0.000167,Open,0,,,,,SNT5 +15 ft on trunk to CNT71
+J_TEE_SNT5_325_RUN_IN,Pipe,J_TEE_SNT5_325,J_TEE_SNT5_325,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_325_CNT71_Stub,Pipe,J_TEE_SNT5_325,J_CNT71_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT71_Stub_CNT71_325,Pipe,J_CNT71_Stub,J_CNT71,55,1.029,0.000167,Open,0,,,,,55 ft lateral ? CNT71
+J_TEE_SNT5_325_400,Pipe,J_SNT5_325,J_TEE_SNT5_400,75,2.469,0.000167,Open,0,,,,,SNT5 +15 ft on trunk to CNT72
+J_TEE_SNT5_400_RUN_IN,Pipe,J_TEE_SNT5_400,J_TEE_SNT5_400,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_400_CNT72_Stub,Pipe,J_TEE_SNT5_400,J_CNT72_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT72_Stub_CNT72_400,Pipe,J_CNT72_Stub,J_CNT72,15,1.029,0.000167,Open,0,,,,,15 ft lateral ? CNT72
+J_TEE_SNT5_400_415,Pipe,J_SNT5_400,J_TEE_SNT5_415,15,2.469,0.000167,Open,0,,,,,SNT5 +15 ft on trunk to CNT73
+J_TEE_SNT5_415_RUN_IN,Pipe,J_TEE_SNT5_415,J_TEE_SNT5_415,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_415_CNT73_Stub,Pipe,J_TEE_SNT5_415,J_CNT73_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT73_Stub_CNT73_415,Pipe,J_CNT73_Stub,J_CNT73,55,1.029,0.000167,Open,0,,,,,SNT5+15 ft on trunk to CNT73
+J_TEE_SNT5_415_430,Pipe,J_SNT5_415,J_TEE_SNT5_430,15,2.469,0.000167,Open,0,,,,,SNT5 +15 ft on trunk to CNT74
+J_TEE_SNT5_430_RUN_IN,Pipe,J_TEE_SNT5_430,J_TEE_IN_430,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_430_CNT74_Stub,Pipe,J_TEE_SNT5_430,J_CNT74_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT74_Stub_CNT74_430,Pipe,J_CNT74_Stub,J_CNT74,90,1.029,0.000167,Open,0,,,,,SNT5 +90 ft on trunk to CNT74
+J_TEE_SNT5_430_495,Pipe,J_SNT5_430,J_TEE_SNT5_495,65,2.469,0.000167,Open,0,,,,,SNT5 +65 ft on trunk to CNT75
+J_TEE_SNT5_495_RUN_IN,Pipe,J_TEE_SNT5_495,J_TEE_SNT5_495,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_495_CNT75_Stub,Pipe,J_TEE_SNT5_495,J_CNT75_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT75_Stub_CNT75_495,Pipe,J_CNT75_Stub,J_CNT75,55,1.029,0.000167,Open,0,,,,,SNT5 +55 ft on trunk to CNT75
+J_TEE_SNT5_495_530,Pipe,J_SNT5_495,J_TEE_SNT5_530,35,2.469,0.000167,Open,0,,,,,SNT5 +35 ft on trunk to CNT76
+J_TEE_SNT5_530_RUN_IN,Pipe,J_TEE_SNT5_530,J_TEE_SNT5_530,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_530_CNT76_Stub,Pipe,J_TEE_SNT5_530,J_CNT76_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT76_Stub_CNT76_530,Pipe,J_CNT76_Stub,J_CNT76,100,1.029,0.000167,Open,0,,,,,SNT5 +100 ft on trunk to CNT76
+J_SNT5_530_565,Pipe,J_SNT5_530,J_TEE_SNT5_565,35,2.469,0.000167,Open,0,,,,,SNT5 +55 ft on trunk to CNT77
+J_TEE_SNT5_565_RUN_IN,Pipe,J_TEE_SNT5_565,J_TEE_SNT5_565,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_565_CNT77_Stub,Pipe,J_TEE_SNT5_565,J_CNT77_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT77_Stub_CNT77_565,Pipe,J_CNT77_Stub,J_CNT77,100,1.029,0.000167,Open,0,,,,,SNT5 +100 ft on trunk to CNT77
+J_TEE_SNT5_565_620,Pipe,J_SNT5_565,J_TEE_SNT5_620,55,2.469,0.000167,Open,0,,,,,SNT5 +55 ft on trunk to CNT78
+J_TEE_SNT5_620_RUN_IN,Pipe,J_TEE_SNT5_620,J_TEE_SNT5_620,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_620_CNT78_Stub,Pipe,J_TEE_SNT5_620,J_CNT78_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT78_Stub_CNT78_620,Pipe,J_CNT78_Stub,J_CNT78,60,1.029,0.000167,Open,0,,,,,SNT5 +100 ft on trunk to CNT78
+J_TEE_SNT5_620_695,Pipe,J_SNT5_620,J_TEE_SNT5_695,75,2.469,0.000167,Open,0,,,,,SNT5 +75 ft on trunk to CNT79
+J_TEE_SNT5_695_RUN_IN,Pipe,J_TEE_SNT5_695,J_TEE_IN__695,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_TEE_SNT5_695_CNT79_Stub,Pipe,J_TEE_SNT5_695,J_CNT79_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT79_Stub_CNT79_695,Pipe,J_CNT79_Stub,J_CNT80,40,1.029,0.000167,Open,0,,,,,SNT5 +100 ft on trunk to CNT79
+J_TEE_SNT5_695_770,Pipe,J_SNT5_695,J_TEE_SNT5_770,75,2.469,0.000167,Open,0,,,,,SNT5 +75 ft on trunk to CNT80
+J_TEE_SNT5_770_RUN_IN,Pipe,J_TEE_SNT5_770,J_TEE_SNT5_770,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_SNT5_770_CNT80_Stub,Pipe,J_TEE_SNT5_770,J_CNT80_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT80_Stub_CNT80_770,Pipe,J_CNT80_Stub,J_CNT80,60,1.029,0.000167,Open,0,,,,,SNT5 +100 ft on trunk to CNT80
+J_TEE_SNT5_770_800,Pipe,J_SNT5_770,J_TEE_SNT5_800,30,2.469,0.000167,Open,0,,,,,SNT5 +30 ft on trunk to CNT81
+J_TEE_SNT5_800_RUN_IN,Pipe,J_TEE_SNT5_800,J_TEE_SNT5_800,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_SNT5_770_CNT81_Stub,Pipe,J_TEE_SNT5_800,J_CNT81_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT5
+J_CNT81_Stub_CNT81_800,Pipe,J_CNT81_Stub,J_CNT81,20,1.029,0.000167,Open,0,,,,,SNT5 +20 ft on trunk to CNT81
+J_TEE_SNT2_1175_1190,Pipe,J_SNT5_1175,J_TEE_SNT2_1190,15,2.469,0.000167,Open,0,,,,,Continuation of SNT2 15 ft to CNT82
+J_TEE_SNT2_1190_RUN_IN,Pipe,J_TEE_SNT2_1190,J_TEE_SNT2_1190,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_1190_CNT82_Stub,Pipe,J_TEE_SNT2_1190,J_CNT82_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_CNT82_Stub_CNT82_1190,Pipe,J_CNT82_Stub,J_CNT82,95,1.029,0.000167,Open,0,,,,,SNT2 +95 ft on trunk to CNT82
+J_TEE_SNT2_1190_1285,Pipe,J_SNT2_1190,J_TEE_SNT2_1285,95,2.469,0.000167,Open,0,,,,,SNT2 east 95 ft to TEE @1285
+J_TEE_SNT2_1285_RUN_IN,Pipe,J_TEE_SNT2_1285,J_TEE_SNT6_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_1285_SNT6_Stub,Pipe,J_TEE_SNT2_1285,J_TEE_SNT6_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_SNT6_Stub_SNT6_80,Pipe,J_TEE_SNT6_Stub,J_SNT6,80,2.469,0.000167,Open,0,,,,,Run OUT ? J_SNT5_80 ft)
+J_SNT6_80_V13_IN_Stub,Pipe,J_SNT6_80,J_V13_IN_Stub_80,1,2.469,0.000167,Open,0,,,,,Stub into V13 (no added length)
+V13,Valve,J_V13_IN_80,J_V13_OUT_Stub,1,2.469,0.000167,Closed,0,,0,,TCV,Closed valve at SNT6 terminus
+J_TEE_SNT2_1285_1365,Pipe,J_SNT2_1285,J_TEE_SNT2_1385,80,2.469,0.000167,Open,0,,,,,SNT2 south 80 ft to TEE @1465
+J_TEE_SNT2_1385_RUN_IN,Pipe,J_TEE_SNT2_1385,J_TEE_SNT7_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_TEE_SNT2_1365_Stub,Pipe,J_TEE_SNT2_1385,J_TEE_SNT7_Stub,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT2
+J_SNT7_Stub_SNT7_190,Pipe,J_TEE_OUT_1365,J_SNT7_190,190,2.469,0.000167,Open,0,,,,,Run OUT ? J_SNT7_190 ft)
+J_SNT7_190_V14_IN_190_Stub,Pipe,J_SNT7_190,J_V14_IN_190,1,2.469,0.000167,Open,0,,,,,Stub into V13 (no added length)
+V14,Valve,J_V14_IN,J_V14_OUT,1,2.469,0.000167,Closed,0,,0,,TCV,Closed valve at SNT7 terminus
+J_TEE_SNT2_1365_1490,Pipe,J_SNT2_1385,J_SNT2_V15_IN_1490,125,2.469,0.000167,Open,0,,,,,Run OUT ? J_SNT2_125 ft)
+J_SNT2_V15_IN_1490_Stub,Pipe,J_SNT2_1490_Stub,J_V15_IN,1,2.469,0.000167,Open,0,,,,,Stub into V14 (no added length)
+V15,Valve,J_V15_IN,J_V15_OUT,1,2.469,0.000167,Closed,0,,0,,TCV,Closed valve on SNT2
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+J_TEE_IN_SNT1_525,Pipe,J_TEE_IN_SNT1_525,J_TEE_OUT_CNT2_Stub_525,1,2.469,0.000167,Open,0.3,,,,,TEE(dividing): run IN ? tee fitting at SNT1
+J_TEE_OUT_CNT2_Stub,Pipe,J_TEE_IN_SNT1_525,J_TEE_OUT_CNT2_Stub,1,2.469,0.000167,Open,0.3,,,,,Service branch stub off trunk
+J_TEE_OUT_525_CNT2,Pipe,J_TEE_OUT_525,J_CNT2,40,1.029,0.000167,Open,0,,,,,"""Lateral @40 ft ? CNT2"""
+J_TEE_OUT_SNT1_525_580,Pipe,J_TEE_OUT_525,J_TEE_IN_SNT1_580,55,2.469,0.000167,Open,0,,,,,SNT1 525?55 ft

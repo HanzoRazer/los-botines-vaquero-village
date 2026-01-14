@@ -1,0 +1,2 @@
+LinkID,Type,NodeID1,NodeID2,Length_ft,Diameter_in,Roughness,InitialStatus,MinorLoss_K,Power_HP,Setting,CurveID,Valve,Type.1,Tag,Reject_Reason,Notes
+"""The End of Zone A""",nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,"Invalid Type 'nan' (Pipe/Pump/Valve only); Diameter_in must be > 0 (in); Roughness must be >= 0 (Darcy ε, ft); Self-loop (NodeID1 == NodeID2) not allowed",LinkID contains forbidden characters (space/quote/comma); LinkID contains uncommon characters; verify EPANET compatibility; Unusual InitialStatus 'nan'

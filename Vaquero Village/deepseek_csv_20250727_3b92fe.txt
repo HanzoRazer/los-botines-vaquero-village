@@ -1,0 +1,4 @@
+Flow_GPM,HW_ΔP,DW_ΔP,ReynoldsNumber,FlowRegime
+0.125,0.0003,0.0004,15,Laminar
+0.25,0.0011,0.0015,30,Laminar
+... (full CSV available on request)

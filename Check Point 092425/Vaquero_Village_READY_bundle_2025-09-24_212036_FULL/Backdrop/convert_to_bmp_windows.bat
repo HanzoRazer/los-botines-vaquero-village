@@ -1,0 +1,1 @@
+"%ProgramFiles%\ImageMagick-7.0.11-Q16\magick.exe" -density 300 "G:\My Drive\Los Botines Vaquero Village\GRID SITE PLAN.pdf[0]" -trim +repage -colors 256 BMP3:"G:\My Drive\Los Botines Vaquero Village\GRID_SITE_PLAN.bmp"

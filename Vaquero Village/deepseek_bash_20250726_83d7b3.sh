@@ -1,0 +1,1 @@
+python stagnation.py --flow 0.5 --diameter 1.5

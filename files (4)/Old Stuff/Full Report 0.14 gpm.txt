@@ -1,0 +1,5 @@
+Los Botines Vaquero Village - Water System Analysis
+Time Series Table - Node J_CNT80
+ Time                   	Demand          
+ Hours                  	GPM             
+0:00                    	0.14            
