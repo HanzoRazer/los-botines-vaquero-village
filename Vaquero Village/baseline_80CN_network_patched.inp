@@ -1,0 +1,87 @@
+[TITLE]
+Minimal Example Network
+
+
+[JUNCTIONS]
+;ID           Elevation   Demand    Pattern
+ J1           100         0         
+ J2           95          0         
+
+
+[RESERVOIRS]
+;ID           Head
+ R1           110
+
+
+[PIPES]
+;ID           Node1   Node2   Length  Diameter  Roughness  MinorLoss  Status
+ P1           R1      J1      1000    12        100        0          Open
+ P2           J1      J2      1000    12        100        0          Open
+
+
+[PUMPS]
+
+[VALVES]
+
+[EMITTERS]
+
+[DEMANDS]
+;Junction	Demand	Pattern
+
+[PATTERNS]
+;ID	Multipliers
+ PAT125	1.25
+ PAT100	1.00
+ PAT075	0.75
+ PAT050	0.50
+ PAT0125	0.125
+
+[CONTROLS]
+
+[OPTIONS]
+ UNITS               GPM
+ HEADLOSS            D-W
+ SPECGRAV            1.0
+ VISCOSITY           1.0
+ TRIALS              40
+ ACCURACY            0.001
+ CHECKFREQ           2
+ MAXCHECK            10
+ DAMPLIMIT           0.0
+ UNBALANCED          STOP 10
+
+[STATUS]
+
+[ENERGY]
+
+[TIMES]
+ DURATION            2:00
+ HYDRAULIC TIMESTEP  0:05
+ QUALITY TIMESTEP    0:05
+ REPORT TIMESTEP     0:05
+ REPORT START        0:00
+ START CLOCKTIME     12 am
+ STATISTIC           NONE
+
+[REPORT]
+ PAGESIZE            0
+ STATUS              YES
+ NODES               ALL
+ LINKS               ALL
+
+[COORDINATES]
+ J1	0.00	0.00
+ J2	50.00	0.00
+ R1	0.00	0.00
+
+[VERTICES]
+
+[LABELS]
+
+[TAGS]
+
+[BACKDROP]
+
+[MAP]
+
+[END]

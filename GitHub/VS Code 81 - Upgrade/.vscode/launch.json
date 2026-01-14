@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run All Scenarios (81 CN)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_all_scenarios_81CN.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
