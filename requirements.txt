@@ -1,0 +1,5 @@
+# EPANET Interface Dependencies
+wntr>=1.0.0  # Water Network Tool for Resilience - Python interface to EPANET
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.3.0

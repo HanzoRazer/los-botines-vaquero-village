@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# EPANET files
+*.rpt
+*.out
+*.bin
+*.inp
+!examples/networks/*.inp
+temp.*
+
+# Data files (simulation results)
+*_results_*.csv
+*_pressure.csv
+*_flow.csv
+*_demand.csv
+*.xlsx
+!examples/*.csv
+
+# Report files (generated)
+*_compliance_report.txt
+compliance_report.txt
+
+# OS
+.DS_Store
+Thumbs.db
